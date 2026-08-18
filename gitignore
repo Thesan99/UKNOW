@@ -1,0 +1,25 @@
+# --- Data, models, caches (large; and paths that could leak a machine layout) ---
+# Everything the pipeline writes lives under DATA_ROOT (default ./data).
+data/
+hf_cache/
+dataset_real/
+datasetV1/
+datasetV2/
+datasetV3/
+dataset_final/
+finetuned_sdxl_detector/
+prompts/
+
+# Generated CSVs (contain local filepaths). Publish separately as a release
+# artifact if you want the provenance public.
+*.csv
+
+# --- Secrets / environment ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/

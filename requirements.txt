@@ -1,0 +1,13 @@
+# Pin to the versions your environment confirms work once you have a good combo.
+# The diffusers <-> transformers pairing is the usual breakage point.
+torch
+transformers
+diffusers
+accelerate
+huggingface_hub[cli]
+pillow
+requests
+matplotlib
+numpy
+grad-cam
+opencv-python
