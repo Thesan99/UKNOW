@@ -48,4 +48,4 @@ Built by three international graduates trained in Korea, across data science, en
 
 ## License
 
-MIT.
+MIT — see [LICENSE](LICENSE).
