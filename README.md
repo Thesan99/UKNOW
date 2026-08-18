@@ -13,8 +13,6 @@ Not yet on the Chrome Web Store — load it manually:
 3. Click **Load unpacked** and select this folder.
 4. Right-click any image → **UKNOW 🔍**.
 
-Firefox: open `about:debugging` → This Firefox → **Load Temporary Add-on** → pick `manifest.json`.
-
 ## Configuration
 
 The extension talks to a UKNOW detector server (a Hugging Face Space). The URL is set at the top of `background.js`:
